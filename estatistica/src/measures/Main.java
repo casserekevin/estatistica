@@ -12,6 +12,7 @@ public class Main {
 
 		Measures measures = new Measures();
 		measures.printAllMeasures(numbers);
+
 	}
 
 	public static void calculateRangeWithList(List<Integer> numbers) {
@@ -28,8 +29,8 @@ public class Main {
 			}
 		}
 
-		System.out.println("Maior Número: " + highestNumber);
-		System.out.println("Menor Número: " + smallestNumber);
+		System.out.println("Maior Nï¿½mero: " + highestNumber);
+		System.out.println("Menor Nï¿½mero: " + smallestNumber);
 
 		System.out.println("Alcance: " + (highestNumber - smallestNumber));
 	}
@@ -48,8 +49,8 @@ public class Main {
 
 		}
 
-		System.out.println("Maior Número: " + highestNumber);
-		System.out.println("Menor Número: " + smallestNumber);
+		System.out.println("Maior Nï¿½mero: " + highestNumber);
+		System.out.println("Menor Nï¿½mero: " + smallestNumber);
 
 		System.out.println("Alcance: " + (highestNumber - smallestNumber));
 	}
