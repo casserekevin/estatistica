@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-		
+
 		//execution
 		Measures measures = new Measures();
 		measures.printAllMeasures(numbers);
@@ -30,8 +30,8 @@ public class Main {
 			}
 		}
 
-		System.out.println("Maior N�mero: " + highestNumber);
-		System.out.println("Menor N�mero: " + smallestNumber);
+		System.out.println("Maior Número: " + highestNumber);
+		System.out.println("Menor Número: " + smallestNumber);
 
 		System.out.println("Alcance: " + (highestNumber - smallestNumber));
 	}
@@ -50,8 +50,8 @@ public class Main {
 
 		}
 
-		System.out.println("Maior N�mero: " + highestNumber);
-		System.out.println("Menor N�mero: " + smallestNumber);
+		System.out.println("Maior Número: " + highestNumber);
+		System.out.println("Menor Número: " + smallestNumber);
 
 		System.out.println("Alcance: " + (highestNumber - smallestNumber));
 	}

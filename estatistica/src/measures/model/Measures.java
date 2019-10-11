@@ -7,13 +7,13 @@ import measures.util.MeasuresUtil;
 public class Measures {
 
 	public void printAllMeasures(int[] numbers) {
-		System.out.println("MÈdia AritmÈtica: " + MeasuresUtil.getArithmeticMean(numbers));
-		System.out.println("Vari‚ncia(Amostragem): " + MeasuresUtil.getVariance(numbers));
-		System.out.println("Vari‚ncia(Total): " + MeasuresUtil.getVariance(numbers, true));
-		System.out.println("Desvio Padr„o(Amostragem): " + MeasuresUtil.getStandardDeviation(numbers));
-		System.out.println("Desvio Padr„o(Total): " + MeasuresUtil.getStandardDeviation(numbers, true));
-		System.out.println("Coeficiente de VariaÁ„o(Amostragem): " + MeasuresUtil.getVariationCoefficient(numbers));
-		System.out.println("Coeficiente de VariaÁ„o(Total): " + MeasuresUtil.getVariationCoefficient(numbers, true));
+		System.out.println("M√©dia Aritm√©tica: " + MeasuresUtil.getArithmeticMean(numbers));
+		System.out.println("Vari√¢ncia(Amostragem): " + MeasuresUtil.getVariance(numbers));
+		System.out.println("Vari√¢ncia(Total): " + MeasuresUtil.getVariance(numbers, true));
+		System.out.println("Desvio Padr√£o(Amostragem): " + MeasuresUtil.getStandardDeviation(numbers));
+		System.out.println("Desvio Padr√£o(Total): " + MeasuresUtil.getStandardDeviation(numbers, true));
+		System.out.println("Coeficiente de Varia√ß√£o(Amostragem): " + MeasuresUtil.getVariationCoefficient(numbers));
+		System.out.println("Coeficiente de Varia√ß√£o(Total): " + MeasuresUtil.getVariationCoefficient(numbers, true));
 		System.out.println("Teste Z(Amostragem): " + Arrays.toString(MeasuresUtil.getTestZ(numbers)));
 		System.out.println("Teste Z(Total): " + Arrays.toString(MeasuresUtil.getTestZ(numbers, true)));
 	}
